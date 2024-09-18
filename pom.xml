@@ -46,13 +46,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
+            <!-- No version specified; Spring Boot manages the version -->
             <scope>provided</scope>
         </dependency>
 
-        <!-- Optional: MySQL Database Driver -->
+        <!-- MySQL Database Driver -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version> <!-- Add the version explicitly -->
             <scope>runtime</scope>
         </dependency>
 
@@ -103,5 +105,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
