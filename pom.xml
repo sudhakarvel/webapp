@@ -47,6 +47,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <version>2.7.6</version> <!-- You can change the version if needed -->
+        </dependency>
 
         <!-- Optional: Add other dependencies as needed -->
     </dependencies>
